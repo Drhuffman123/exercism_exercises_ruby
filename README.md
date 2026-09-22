@@ -8,8 +8,9 @@ Exercism exercises using Ruby (and ports from my Crystal-lang repo)
 Version 0.0.1 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
 
 * Setup
-  * L `git config --global user.name "Your GitHub Username"`
-    `git config --global user.email "your-email@example.com"`
+  * L Setup Git auth locally:
+    * `git config --global user.name "Your GitHub Username"`
+    * `git config --global user.email "your-email@example.com"`
   * L `sudo apt update && sudo apt install gnome-keyring`
   * L `git init`
   * `bundle install --path vendor/bundle`
