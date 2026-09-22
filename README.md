@@ -7,15 +7,18 @@ Exercism exercises using Ruby (and ports from my Crystal-lang repo)
 
 Version 0.0.1 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
 
-* Setup
+* Setup (Locally)
   * L Setup Git auth locally:
     * `git config --global user.name "Your GitHub Username"`
     * `git config --global user.email "your-email@example.com"`
-  * L `sudo apt update && sudo apt install gnome-keyring`
-  * L `git init`
-  * `bundle install --path vendor/bundle`
-  * L `sudo apt install ruby-rspec-core`
-  * L `sudo apt install rubocop`
+  * L Setup keyring and git locally
+    * `sudo apt update && sudo apt install gnome-keyring`
+    * `git init`
+  * L Setup Ruby & Rubocop Dependencies locally:
+    * `sudo apt install ruby-rspec-core`
+    * `sudo apt install rubocop`
+  * Config Bundler locally:
+    * `bundle install --path vendor/bundle`
 
 * Run tests
   * `rubocop -A`
