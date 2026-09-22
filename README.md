@@ -7,8 +7,6 @@ Exercism exercises using Ruby (and ports from my Crystal-lang repo)
 
 Version 0.0.1 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
 
-[![https://github.com/exercism_exercises_ruby](https://github.com/exercism_exercises_ruby)](https://github.com/exercism_exercises_ruby)
-
 * Setup
   *L `sudo apt update && sudo apt install gnome-keyring`
   *L `git init`
