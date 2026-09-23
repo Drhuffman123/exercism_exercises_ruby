@@ -1,16 +1,22 @@
 # lasagna_spec.rb
 # frozen_string_literal: true
 
-require 'minitest/autorun'
+# require "minitest/autorun"
+require "rspec"
 
+# require "lasagna"
 require_relative '../lib/lasagna.rb'
 
-class LasagnaTest < Minitest::Test
-  def test_1
-    assert_equal 40, Lasagna::EXPECTED_MINUTES_IN_OVEN
+RSpec.describe Lasagna do
+  context "test_1" do
+    it "default_message" do
+      expect(Lasagna::EXPECTED_MINUTES_IN_OVEN).to eq 40
+    end
   end
-
-  def test_2
-    assert_equal 15, Lasagna.new.remaining_minutes_in_oven(25)
+  
+  context "test_2" do
+    it "default_message" do
+      expect(Lasagna.new.remaining_minutes_in_oven(25)).to eq 15
+    end
   end
 end
