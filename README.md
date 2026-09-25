@@ -31,4 +31,4 @@ Version 0.0.7 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/act
   * 4: (2026-09-24) Add example "Attendee" and revise it
   * 5: (2026-09-24) Add example "LogLineParser"
   * 6: (2026-09-24c) Add example "AssemblyLine"
-  * 7: (2026-09-25a) Add example (tbd)
+  * 7: (2026-09-25a) Add example "SavingsAccount"
