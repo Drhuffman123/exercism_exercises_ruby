@@ -20,6 +20,7 @@ describe Blackjack do
     
     it "test 4" do
       # assert_equal 4, Blackjack.parse_card("four")
+      expect(Blackjack.parse_card("four")).to eq 4
     end
     
     it "test 5" do
