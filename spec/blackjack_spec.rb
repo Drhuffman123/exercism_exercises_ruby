@@ -138,60 +138,74 @@ describe Blackjack do
     context "P"
       it "test 25" do
         # assert_equal "P", Blackjack.first_turn("ace", "ace", "ace")
+        expect(Blackjack.card_range("ace", "ace", "ace")).to eq "P"
       end
     end
 
     context "S"
       it "test 26" do
         # assert_equal "S", Blackjack.first_turn("jack", "jack", "ace")
+        expect(Blackjack.card_range("jack", "jack", "ace")).to eq "S"
       end
 
       it "test 27" do
         # assert_equal "S", Blackjack.first_turn("queen", "queen", "ace")
+        expect(Blackjack.card_range("queen", "queen", "ace")).to eq "S"
       end
       
       it "test 30" do
         # assert_equal "S", Blackjack.first_turn("ace", "king", "ace")
+        expect(Blackjack.card_range("ace", "king", "ace")).to eq "S"
       end
       
       it "test 31" do
         # assert_equal "S", Blackjack.first_turn("jack", "king", "queen")
+        expect(Blackjack.card_range("jack", "king", "queen")).to eq "S"
       end
       
       it "test 34" do
         # assert_equal "S", Blackjack.first_turn("king", "queen", "ace")
+        expect(Blackjack.card_range("king", "queen", "ace")).to eq "S"
       end  
       
       it "test 35" do
         # assert_equal "S", Blackjack.first_turn("king", "nine", "ace")
+        expect(Blackjack.card_range("king", "nine", "ace")).to eq "S"
       end
       
       it "test 36" do
         # assert_equal "S", Blackjack.first_turn("queen", "eight", "ace")
+        expect(Blackjack.card_range("queen", "eight", "ace")).to eq "S"
       end
       
       it "test 37" do
         # assert_equal "S", Blackjack.first_turn("jack", "seven", "ace")
+        expect(Blackjack.card_range("jack", "seven", "ace")).to eq "S"
       end
       
       it "test 38" do
         # # assert_equal "S", Blackjack.first_turn("jack", "six", "six")
+        expect(Blackjack.card_range("jack", "six", "six")).to eq "S"
       end
       
       it "test 41" do
         # # assert_equal "S", Blackjack.first_turn("nine", "six", "six")
+        expect(Blackjack.card_range("nine", "six", "six")).to eq "S"
       end
       
       it "test 44" do
         # # assert_equal "S", Blackjack.first_turn("eight", "six", "six")
+        expect(Blackjack.card_range("eight", "six", "six")).to eq "S"
       end
       
       it "test 47" do
         # # assert_equal "S", Blackjack.first_turn("seven", "six", "six")
+        expect(Blackjack.card_range("seven", "six", "six")).to eq "S"
       end
       
       it "test 50" do
         # # assert_equal "S", Blackjack.first_turn("six", "six", "six")
+        expect(Blackjack.card_range("six", "six", "six")).to eq "S"
       end
     end
     
