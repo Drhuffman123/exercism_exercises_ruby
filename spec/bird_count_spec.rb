@@ -1,8 +1,8 @@
 # require "minitest/autorun"
 require "rspec"
-require "assembly_line"
+require "bird_count"
 
-RSpec.describe AssemblyLine do
+RSpec.describe BirdCount do
   context "last_week" do      
     it "Test 1" do
       # assert_equal [0, 2, 5, 3, 7, 8, 4], BirdCount.last_week
