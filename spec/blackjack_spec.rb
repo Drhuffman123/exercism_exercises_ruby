@@ -10,10 +10,12 @@ describe Blackjack do
     
     it "test 2" do
       # assert_equal 2, Blackjack.parse_card("two")
+      expect(Blackjack.parse_card("two")).to eq 2
     end
     
     it "test 3" do
       # assert_equal 3, Blackjack.parse_card("three")
+      expect(Blackjack.parse_card("three")).to eq 3
     end
     
     it "test 4" do
