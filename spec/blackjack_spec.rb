@@ -112,20 +112,24 @@ describe Blackjack do
     context "high" do
       it "test 21" do
         # assert_equal "high", Blackjack.card_range("nine", "eight")
+        expect(Blackjack.card_range("nine", "eight")).to eq "high"
       end
       
       it "test 22" do
         # assert_equal "high", Blackjack.card_range("eight", "queen")
+        expect(Blackjack.card_range("eight", "queen")).to eq "high"
       end
       
       it "test 23" do
         # assert_equal "high", Blackjack.card_range("king", "ten")
+        expect(Blackjack.card_range("king", "ten")).to eq "high"
       end
     end
     
     context "blackjack"
       it "test 24" do
         # assert_equal "blackjack", Blackjack.card_range("ace", "ten")
+        expect(Blackjack.card_range("ace", "ten")).to eq "blackjack"
       end
     end
   end
