@@ -27,14 +27,14 @@ Version 0.0.12 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
 * Exercism exercises
   * 1: (2026-09-22) Initial setup
   * 2: (2026-09-23) Set up repo and add first example "HelloWorld"
-  * 3: (2026-09-23) Add example "Lasagna"  
-  * 4: (2026-09-24) Add example "Attendee" and revise it
-  * 5: (2026-09-24) Add example "LogLineParser"
-  * 6: (2026-09-24c) Add example "AssemblyLine"
-  * 7: (2026-09-25a) Add example "SavingsAccount"
-  * 8: (2026-09-25b) Add example "PortPalermo"
-  * 9: (2026-09-25c) Add example "ChessGame"
-  * 10: (2026-09-25d) Add example "Blackjack"
-  * 11: (2026-09-26a) Add example "BirdCount" .. Hey Github, HOW IS THIS PASSING (BEFORE) I added any the code for the class?
-  * 12: (2026-09-26b) (WIP, pending) Add example "BoutiqueInventory"
-  * 
+  * 3: (2026-09-23) "Lasagna"  
+  * 4: (2026-09-24) "Attendee" and revise it
+  * 5: (2026-09-24) "LogLineParser"
+  * 6: (2026-09-24c) "AssemblyLine"
+  * 7: (2026-09-25a) "SavingsAccount"
+  * 8: (2026-09-25b) "PortPalermo"
+  * 9: (2026-09-25c) "ChessGame"
+  * 10: (2026-09-25d) "Blackjack"
+  * 11: (2026-09-26a) "BirdCount" .. Hey Github, HOW IS THIS PASSING (BEFORE) I added any the code for the class?
+  * 12: (2026-09-26b) "BoutiqueInventory" (WIP, pending)
+  * 13: (drh2026-09-26c) "EstateExecutor"
