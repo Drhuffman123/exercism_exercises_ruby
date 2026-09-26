@@ -77,6 +77,7 @@ describe Blackjack do
   context "card_range" do
     it "test 15" do
       # assert_equal "low", Blackjack.card_range("two", "two")
+      expect(Blackjack.card_range("two", "two")).to eq "low"
     end
     
     it "test 16" do
