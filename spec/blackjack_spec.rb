@@ -25,42 +25,52 @@ describe Blackjack do
     
     it "test 5" do
       # assert_equal 5, Blackjack.parse_card("five")
+      expect(Blackjack.parse_card("five")).to eq 5
     end
     
     it "test 6" do
       # assert_equal 6, Blackjack.parse_card("six")
+      expect(Blackjack.parse_card("six")).to eq 6
     end
     
     it "test 7" do
       # assert_equal 7, Blackjack.parse_card("seven")
+      expect(Blackjack.parse_card("seven")).to eq 7
     end
     
     it "test 8" do
       # assert_equal 8, Blackjack.parse_card("eight")
+      expect(Blackjack.parse_card("eight")).to eq 8
     end
     
     it "test 9" do
       # assert_equal 9, Blackjack.parse_card("nine")
+      expect(Blackjack.parse_card("nine")).to eq 9
     end
     
     it "test 10" do
       # assert_equal 10, Blackjack.parse_card("ten")
+      expect(Blackjack.parse_card("ten")).to eq 10
     end
     
     it "test 11" do
       # assert_equal 10, Blackjack.parse_card("jack")
+      expect(Blackjack.parse_card("jack")).to eq 10
     end
     
     it "test 12" do
       # assert_equal 10, Blackjack.parse_card("queen")
+      expect(Blackjack.parse_card("queen")).to eq 10
     end
     
     it "test 13" do
       # assert_equal 10, Blackjack.parse_card("king")
+      expect(Blackjack.parse_card("king")).to eq 10
     end
     
     it "test 14" do
       # assert_equal 0, Blackjack.parse_card("joker")
+      expect(Blackjack.parse_card("joker")).to eq 0
     end
   end
   
