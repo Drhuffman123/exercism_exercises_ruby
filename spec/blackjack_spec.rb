@@ -280,24 +280,27 @@ describe Blackjack do
         # assert_equal "H", Blackjack.first_turn("four", "six", "two")
         expect(Blackjack.card_range("four", "six", "two")).to eq "H"
       end
-  
-      
+        
       it "test 55" do
         # assert_equal "H", Blackjack.first_turn("two", "three", "queen")
+        expect(Blackjack.card_range("two", "three", "queen")).to eq "H"
       end
       
       it "test 56" do
         # assert_equal "H", Blackjack.first_turn("two", "two", "five")
+        expect(Blackjack.card_range("two", "two", "five")).to eq "H"
       end
     end
 
     context "W" do      
       it "test 32" do
         # # assert_equal "W", Blackjack.first_turn("ace", "king", "five")
+        expect(Blackjack.card_range("ace", "king", "five")).to eq "W"
       end
       
       it "test 33" do
         # assert_equal "W", Blackjack.first_turn("ace", "king", "nine")
+        expect(Blackjack.card_range("ace", "king", "nine")).to eq "W"
       end
     end
   
