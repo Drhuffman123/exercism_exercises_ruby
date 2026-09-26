@@ -5,7 +5,7 @@ Example code for https://exercism.org in Ruby
 
 Exercism exercises using Ruby (and ports from my Crystal-lang repo)
 
-Version 0.0.10 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
+Version 0.0.10a [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
 
 * Setup (Locally)
   * L Setup Git auth locally:
@@ -35,3 +35,4 @@ Version 0.0.10 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 8: (2026-09-25b) Add example "PortPalermo"
   * 9: (2026-09-25c) Add example "ChessGame"
   * 10: (2026-09-25d) Add example "Blackjack"
+  * 11: (2026-09-26a) Add example "BirdCount" .. Hey Github, HOW IS THIS PASSING (BEFORE) I added any the code for the class?
