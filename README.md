@@ -35,4 +35,4 @@ Version 0.0.10a [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/a
   * 8: (2026-09-25b) Add example "PortPalermo"
   * 9: (2026-09-25c) Add example "ChessGame"
   * 10: (2026-09-25d) Add example "Blackjack"
-  * 11: (2026-09-26a) Add example "BirdCount"
+  * 11: (2026-09-26a) Add example "BirdCount" .. Hey Github, HOW IS THIS PASSING (BEFORE) I added any the code for the class?
