@@ -36,5 +36,5 @@ Version 0.0.11 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 9: (2026-09-25c) Add example "ChessGame"
   * 10: (2026-09-25d) Add example "Blackjack"
   * 11: (2026-09-26a) Add example "BirdCount" .. Hey Github, HOW IS THIS PASSING (BEFORE) I added any the code for the class?
-  * 12: (2026-09-26b) Add example "BoutiqueInventory"
+  * 12: (2026-09-26b) (WIP, pending) Add example "BoutiqueInventory"
   * 
