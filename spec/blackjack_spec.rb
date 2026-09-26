@@ -5,6 +5,7 @@ describe Blackjack do
   context "parse_card" do
     it "test 1" do
       # assert_equal 11, Blackjack.parse_card("ace")
+      expect(Blackjack.parse_card("ace")).to eq 11
     end
     
     it "test 2" do
@@ -132,7 +133,7 @@ describe Blackjack do
     end
     
     it "test 32" do
-      # 
+      # # assert_equal "W", Blackjack.first_turn("ace", "king", "five")
     end
     
     it "test 33" do
@@ -157,7 +158,7 @@ describe Blackjack do
     end
     
     it "test 38" do
-      # 
+      # # assert_equal "S", Blackjack.first_turn("jack", "six", "six")
     end
     
     it "test 39" do
@@ -169,7 +170,7 @@ describe Blackjack do
     end
     
     it "test 41" do
-      # 
+      # # assert_equal "S", Blackjack.first_turn("nine", "six", "six")
     end
     
     it "test 42" do
@@ -181,7 +182,7 @@ describe Blackjack do
     end
     
     it "test 44" do
-      # 
+      # # assert_equal "S", Blackjack.first_turn("eight", "six", "six")
     end
 
     
@@ -194,7 +195,7 @@ describe Blackjack do
     end
     
     it "test 47" do
-      # 
+      # # assert_equal "S", Blackjack.first_turn("seven", "six", "six")
     end
     
     it "test 48" do
@@ -206,32 +207,32 @@ describe Blackjack do
     end
     
     it "test 50" do
-      # 
+      # # assert_equal "S", Blackjack.first_turn("six", "six", "six")
     end
     
     it "test 51" do
-      # 
+      # assert_equal "H", Blackjack.first_turn("five", "seven", "seven")
     end
     
     it "test 52" do
-      # 
+      # assert_equal "H", Blackjack.first_turn("three", "nine", "queen")
     end
     
     it "test 53" do
-      # 
+      # assert_equal "H", Blackjack.first_turn("four", "seven", "king")
     end
     
     it "test 54" do
-      # 
+      # assert_equal "H", Blackjack.first_turn("four", "six", "two")
     end
 
     
     it "test 55" do
-      # 
+      # assert_equal "H", Blackjack.first_turn("two", "three", "queen")
     end
     
     it "test 56" do
-      # 
+      # assert_equal "H", Blackjack.first_turn("two", "two", "five")
     end
   end
 end
