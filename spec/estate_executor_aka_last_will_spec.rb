@@ -71,9 +71,9 @@ Rspec.describe EstateExecutor do
     end
     
     context "Test 3" do
-      pending "a" do
+      it "a" do
         # assert_equal 16_706, ::EstateExecutor.assemble_account_number(1)
-        raise "todo"
+        expect(1).to eq 0 # This should fails the specs!
       end
       
       pending "b" do
