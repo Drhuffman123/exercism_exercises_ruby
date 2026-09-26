@@ -1,3 +1,3 @@
 module ExercismExercisesRuby
-  VERSION = "0.0.10a"
+  VERSION = "0.0.12"
 end
