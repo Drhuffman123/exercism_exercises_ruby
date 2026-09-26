@@ -65,7 +65,7 @@ Rspec.describe EstateExecutor do
       end
     end  
     
-    pending "Test 2" do
+    it "Test 2" do
       # assert_respond_to(::EstateExecutor, :assemble_account_number)
       raise "todo"
     end
