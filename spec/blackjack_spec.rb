@@ -95,14 +95,17 @@ describe Blackjack do
     context "mid" do
       it "test 18" do
         # assert_equal "mid", Blackjack.card_range("seven", "five")
+        expect(Blackjack.card_range("seven", "five")).to eq "mid"
       end
       
       it "test 19" do
         # assert_equal "mid", Blackjack.card_range("seven", "seven")
+        expect(Blackjack.card_range("seven", "seven")).to eq "mid"
       end
       
       it "test 20" do
         # assert_equal "mid", Blackjack.card_range("nine", "seven")
+        expect(Blackjack.card_range("nine", "seven")).to eq "mid"
       end
     end
     
