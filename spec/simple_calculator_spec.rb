@@ -5,67 +5,51 @@ require "attendee" # This should be renamed to "simple_calculator". Come on Gith
 RSpec.describe SimpleCalculator do
   # THIS SHOULD NOT HAVE PASSED the spec tests! Comeon Github! I just copied another spec file and renamed it; I didn't even update the contents to use the correct class.  :(
   
-  context "Test new Attendee" do
-    it "new Attendee" do
-      height = 100
-      # assert_instance_of Attendee, Attendee.new(height)
-      expect(Attendee.new(height)).to be_a Attendee
-    end
-  end
-
-  context "Test Revised Attendee" do
+  context "calculate" do
     it "Test 1" do
-      # refute Attendee.new(100).has_pass?
-      expect(Attendee.new(100).has_pass?).to be false
+      # assert_equal '22 + 25 = 47', SimpleCalculator.calculate(22, 25, '+')
+      expect(SimpleCalculator.calculate(22, 25, '+')).to eq '22 + 25 = 47' 
     end
-
+    
     it "Test 2" do
-      attendee = Attendee.new(100)
-      attendee.issue_pass!(1)
-      # assert attendee.has_pass?
-      expect(attendee.has_pass?).to be true
+      # assert_equal '3 * 21 = 63', SimpleCalculator.calculate(3, 21, '*')
+      expect(SimpleCalculator.calculate(3, 21, '*')).to eq '3 * 21 = 63',
     end
 
     it "Test 3" do
-      attendee = Attendee.new(100)
-      attendee.issue_pass!(1)
-      attendee.revoke_pass!
-      # refute attendee.has_pass?
-      expect(attendee.has_pass?).to be false
+      # assert_equal '72 / 9 = 8', SimpleCalculator.calculate(72, 9, '/')
+      expect(SimpleCalculator.calculate(72, 9, '/')).to eq '72 / 9 = 8' 
     end
-    
+
     it "Test 4" do
-      # assert Attendee.new(100).fits_ride?(100)
-      expect(Attendee.new(100).fits_ride?(100)).to be true
+      # assert_equal "Division by zero is not allowed.", SimpleCalculator.calculate(33, 0, "/")
+      expect(SimpleCalculator.calculate(33, 0, "/")).to eq "Division by zero is not allowed."
     end
-    
+
     it "Test 5" do
-      # assert Attendee.new(100).fits_ride?(80)
-      expect(Attendee.new(100).fits_ride?(80)).to be true
+      # assert_raises(ArgumentError) { SimpleCalculator.calculate('1', 2, '+') }
+      expect(SimpleCalculator.calculate('1', 2, '+')).to raise_expecation ArgumentError
     end
-    
+
     it "Test 6" do
-      # assert Attendee.new(100).fits_ride?(110)
-      expect(Attendee.new(100).fits_ride?(110)).to be false
+      # assert_raises(ArgumentError) { SimpleCalculator.calculate(1, '2', '+') }
+      expect(SimpleCalculator.calculate(1, '2', '+')).to raise_expecation ArgumentError
     end
-    
+
     it "Test 7" do
-      # refute Attendee.new(100).allowed_to_ride?(100)
-      expect(Attendee.new(100).allowed_to_ride?(100)).to be false
+      # assert_raises(SimpleCalculator::UnsupportedOperation) { SimpleCalculator.calculate(1, 2, '**') }
+      expect(SimpleCalculator.calculate(1, 2, '**')).to raise_expecation SimpleCalculator::UnsupportedOperation
     end
 
     it "Test 8" do
-      attendee = Attendee.new(100)
-      attendee.issue_pass!(1)
-      # assert attendee.allowed_to_ride?(100)
-      expect(attendee.allowed_to_ride?(100)).to be true
+      # assert_raises(SimpleCalculator::UnsupportedOperation) { SimpleCalculator.calculate(1, 2, nil) }
+      expect(SimpleCalculator.calculate(1, 2, nil)).to raise_expecation SimpleCalculator::UnsupportedOperation
     end
 
     it "Test 9" do
-      attendee = Attendee.new(100)
-      attendee.issue_pass!(1)
-      # refute attendee.allowed_to_ride?(120)
-      expect(attendee.allowed_to_ride?(120)).to be false
+      # assert_raises(SimpleCalculator::UnsupportedOperation) { SimpleCalculator.calculate(1, 2, '') }
+      expect(SimpleCalculator.calculate(1, 2, '')).to raise_expecation SimpleCalculator::UnsupportedOperation
     end
+
   end
 end
