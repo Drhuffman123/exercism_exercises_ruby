@@ -67,29 +67,29 @@ Rspec.describe EstateExecutor do
     
     it "Test 2" do
       # assert_respond_to(::EstateExecutor, :assemble_account_number)
-      raise "todo"
+      expect(::EstateExecutor.respond_to?(:assemble_account_number))
     end
     
     context "Test 3" do
       it "a" do
         # assert_equal 16_706, ::EstateExecutor.assemble_account_number(1)
-        expect(1).to eq 0 # This should fails the specs!
+        expect(::EstateExecutor.assemble_account_number(1)).to eq 16_706
       end
       
       pending "b" do
         # asert_equal 14_238, ::EstateExecutor.assemble_account_number(23)
-        raise "todo"
+        expect(::EstateExecutor.assemble_account_number(23)).to eq 14_238 #
       end
     end
     
     pending "Test 4" do
       # assert_respond_to(::EstateExecutor, :assemble_code)
-      raise "todo"
+      expect(::EstateExecutor.respond_to?(:assemble_code))
     end
     
     pending "Test 5" do
       # assert_equal 1_925_550, ::EstateExecutor.assemble_code
-      raise "todo"
+      expect(::EstateExecutor.assemble_code).to eq 1_925_550 #
     end
   end
 end
