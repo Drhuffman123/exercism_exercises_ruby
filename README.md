@@ -44,3 +44,4 @@ Version 0.0.19 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 17: (drh_2026-09-28a) "Acronym"
   * 18: (drh_2026-09-28b) "HighScores"
   * 19: (drh_2026-09-28c) "Reverser"
+  * 20: (drh_2026-09-28d) "DndCharacter
