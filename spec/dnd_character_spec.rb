@@ -103,8 +103,9 @@ Rspec.describe DndCharacter do
                              DndCharacter.modifier(character.constitution)
         informative_message = "The character's %s must be within %s"
         attributes.each do |attribute|
-          assert_includes allowed_range, character.send(attribute),
-                          format(informative_message, attribute, allowed_range)
+          # assert_includes allowed_range, character.send(attribute),
+          #                 format(informative_message, attribute, allowed_range)
+          expect(character.send(attribute), format(informative_message, attribute, allowed_range)).to include allowed_range 
         end
         informative_message = "The character's %s must be %s"
         # assert_equal expected_hitpoints, character.hitpoints,
