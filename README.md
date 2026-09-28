@@ -38,3 +38,4 @@ Version 0.0.13 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 11: (2026-09-26a) "BirdCount" .. Hey Github, HOW IS THIS PASSING (BEFORE) I added any the code for the class?
   * 12: (2026-09-26b) "BoutiqueInventory" (WIP, pending)
   * 13: (drh2026-09-26c) "EstateExecutor"
+  * 14: (drh2026-09-27a) "SimpleCalculator"
