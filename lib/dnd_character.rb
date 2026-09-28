@@ -6,25 +6,56 @@ To get started with TDD, see the `README.md` file in your
 `ruby/dnd-character` directory.
 =end
 
-class DndCharacter
-  def self.modifier
-    # Your code here
+class DndCharacter 
+  def self.modifier(tbd)
+    (tbd - 10)/2
   end
 
   def config_core()
-    @strength = Random(24)
-    @dexterity = Random(24)
-    @constitution = Random(24)
-    @intelligence = Random(24)
-    @wisdom = Random(24)
-    @charisma = Random(24)
+    @strength = rand(18-3) + 3
+    @dexterity = rand(18-3) + 3
+    @constitution = rand(18-3) + 3
+    @intelligence = rand(18-3) + 3
+    @wisdom = rand(18-3) + 3
+    @charisma = rand(18-3) + 3
+  end  
+  
+  def strength
+    @strength
+  end
+  
+  def dexterity
+    @dexterity
+  end
+  
+  def constitution
+    @constitution
   end
 
+  def intelligence
+    @intelligence
+  end
+  
+  def wisdom
+    @wisdom
+  end
+  
+  def charisma
+    @charisma
+  end
+
+  def constitution_modifier
+    @constitution_modifier
+  end
+
+  def hitpoints
+    @hitpoints
+  end
+  
   def initialize
     config_core()
     
     @constitution_modifier = ((@constitution - 10)/2).to_i
-    @hitpoints = 10 + @constitution
+    @hitpoints = 10 + @constitution_modifier
   end
 end
-  
