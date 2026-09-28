@@ -11,8 +11,20 @@ class DndCharacter
     # Your code here
   end
 
+  def config_core()
+    @strength = Random(24)
+    @dexterity = Random(24)
+    @constitution = Random(24)
+    @intelligence = Random(24)
+    @wisdom = Random(24)
+    @charisma = Random(24)
+  end
+
   def initialize
-    # Your code here
+    config_core()
+    
+    @constitution_modifier = ((@constitution - 10)/2).to_i
+    @hitpoints = 10 + @constitution
   end
 end
   
