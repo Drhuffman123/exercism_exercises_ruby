@@ -41,3 +41,4 @@ Version 0.0.16 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 14: (drh2026-09-27a) "SimpleCalculator"
   * 15: (drh2026-09-27b) "TwoFer"
   * 16: (drh_2026-09-27c) "ResistorColor"
+  * 17: (drh_2026-09-28a) "Acronym"
