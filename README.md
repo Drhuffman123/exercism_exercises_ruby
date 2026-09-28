@@ -39,3 +39,4 @@ Version 0.0.14 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 12: (2026-09-26b) "BoutiqueInventory" (WIP, pending)
   * 13: (drh2026-09-26c) "EstateExecutor"
   * 14: (drh2026-09-27a) "SimpleCalculator"
+  * 15: (drh2026-09-27b) "TwoFer"
