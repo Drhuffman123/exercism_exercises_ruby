@@ -43,3 +43,4 @@ Version 0.0.18 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 16: (drh_2026-09-27c) "ResistorColor"
   * 17: (drh_2026-09-28a) "Acronym"
   * 18: (drh_2026-09-28b) "HighScores"
+  * 19: (drh_2026-09-28c) "ReverseString"
