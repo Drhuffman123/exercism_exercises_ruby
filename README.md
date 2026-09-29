@@ -46,3 +46,4 @@ Version 0.0.21 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 19: (drh_2026-09-28c) "Reverser"
   * 20: (drh_2026-09-28d) "DndCharacter
   * 21: (drh_2026-09-29a) "Phrase" (aka WordCount)
+  * 22: (drh_2026-09-29b) "EliudsEggs"
