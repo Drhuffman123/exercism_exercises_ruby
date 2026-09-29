@@ -1,7 +1,7 @@
 require "rspec"
 require "word_count.rb"
 
-Rspec.describe do
+Rspec.describe Phrase do
   context "word_count" do
       it "Test 1 : Count one word" do
         actual = Phrase.new("word").word_count
