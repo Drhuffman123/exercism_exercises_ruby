@@ -105,10 +105,6 @@ Rspec.describe Phrase do
         # assert_equal expected, actual
         expect(expected).to eq actual
       end
-
-      it "This ***SHOULD*** FAIL"
-        expect(1).to eq false
-      end
     end
   end
 end
