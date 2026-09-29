@@ -47,3 +47,4 @@ Version 0.0.22 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 20: (drh_2026-09-28d) "DndCharacter
   * 21: (drh_2026-09-29a) "Phrase" (aka WordCount)
   * 22: (drh_2026-09-29b) "EliudsEggs"
+  * 23: (drh_2026-09-29c) "Raindrops"
