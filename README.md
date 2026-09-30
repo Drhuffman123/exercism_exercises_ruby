@@ -51,3 +51,4 @@ Version 0.0.26 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 24: (drh_2026-09-29d) "Isogram"
   * 25: (drh_2026-09-29e) "Scrabble"
   * 26: (drh_2026-09-29f) "Luhn"
+  * 27: (drh_2026-09-30a) "Clock"
