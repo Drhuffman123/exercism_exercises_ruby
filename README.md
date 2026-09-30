@@ -49,3 +49,4 @@ Version 0.0.24 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 22: (drh_2026-09-29b) "EliudsEggs"
   * 23: (drh_2026-09-29c) "Raindrops"
   * 24: (drh_2026-09-29d) "Isogram"
+  * 25: (drh_2026-09-29e) "Scrabble"
