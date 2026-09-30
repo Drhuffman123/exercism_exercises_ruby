@@ -52,3 +52,4 @@ Version 0.0.27 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 25: (drh_2026-09-29e) "Scrabble"
   * 26: (drh_2026-09-29f) "Luhn"
   * 27: (drh_2026-09-30a) "Clock"
+  * 28: (drh_2026-09-30b) "TwelveDays"
