@@ -5,7 +5,7 @@ Example code for https://exercism.org in Ruby
 
 Exercism exercises using Ruby (and ports from my Crystal-lang repo)
 
-Version 0.0.25 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
+Version 0.0.26 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml/badge.svg)](https://github.com/Drhuffman123/exercism_exercises_ruby/actions/workflows/blank.yml)
 
 * Setup (Locally)
   * L Setup Git auth locally:
@@ -50,3 +50,4 @@ Version 0.0.25 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 23: (drh_2026-09-29c) "Raindrops"
   * 24: (drh_2026-09-29d) "Isogram"
   * 25: (drh_2026-09-29e) "Scrabble"
+  * 26: (drh_2026-09-29f) "Luhn"
