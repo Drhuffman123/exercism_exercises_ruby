@@ -54,5 +54,6 @@ Version 0.0.29 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 27: (drh_2026-09-30a) "Clock"
   * 28: (drh_2026-09-30b) "TwelveDays"
   * 29: (drh_2026-10-01a) "Gigasecond"
+  * 30: (drh_2026-10-01b) "ResistorColor"
 * TODO:
   * "Tournament"
