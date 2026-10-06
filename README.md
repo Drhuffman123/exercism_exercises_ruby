@@ -57,5 +57,6 @@ Version 0.0.32 [![CI](https://github.com/Drhuffman123/exercism_exercises_ruby/ac
   * 30: (drh_2026-10-01b) "ResistorColor"
   * 31: (drh_2026-10-06a) "RnaTranscription"
   * 32: (drh_2026-10-06b) "Pangram"
+  * 33: (drh_2026-10-06c) "SpaceAge"
 * TODO:
   * "Tournament"
