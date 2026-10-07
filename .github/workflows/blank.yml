@@ -24,11 +24,11 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
-
+      
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.3' # Specify your Ruby version
+          ruby-version: '3.4' # Specify your Ruby version
           bundler-cache: true # Automatically runs 'bundle install' and caches gems
 
       - name: Run script or tool
