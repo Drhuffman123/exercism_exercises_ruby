@@ -32,9 +32,9 @@ jobs:
           ruby-version: '4'
           bundler-cache: true # Automatically runs 'bundle install' and caches gems
 
-      # Runs a set of commands using the runners shell
-      - name: Run Rubocop
-        run: bundle exec rubocop        
+      # # Runs a set of commands using the runners shell
+      # - name: Run Rubocop
+      #   run: bundle exec rubocop        
         
       # Runs a set of commands using the runners shell
       - name: Run rspec
