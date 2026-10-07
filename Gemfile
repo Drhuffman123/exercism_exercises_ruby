@@ -6,7 +6,7 @@ source 'https://rubygems.org'
 
 # ruby '3.2.3'
 # ruby '3.3.12'
-ruby '3.4'
+ruby '3.4.11'
 gem 'json'
 gem 'rspec'
 gem 'rubocop'
