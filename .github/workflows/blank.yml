@@ -22,7 +22,9 @@ jobs:
         # Enables automatic 'bundle install' with smart hashing-based caching
         bundler-cache: true 
 
+    # Runs a single command using the runners shell
+    - name: Add RSPEC dependency
+      run: gem install rspec
+        
     - name: Run tests
-      run:
-        bundle install rspec
-        rspec
+      run: rspec
