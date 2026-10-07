@@ -31,18 +31,10 @@ jobs:
           ruby-version: '3.4' # Specify your Ruby version
           bundler-cache: true # Automatically runs 'bundle install' and caches gems
 
-      - name: Run script or tool
-        run: bundle exec rubocop # Replace 'rubocop' with your specific script or tool
-        
-      - name: Run script or tool
-        run: bundle exec rspec
-        
       # Runs a set of commands using the runners shell
       - name: Run Rubocop
-        run: |
-          echo Run Rubocop,
-          rubocop
-          
+        run: bundle exec rubocop        
+        
       # Runs a set of commands using the runners shell
       - name: Run rspec
         run: |
