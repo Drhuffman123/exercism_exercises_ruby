@@ -18,7 +18,7 @@ jobs:
       uses: ruby/setup-ruby@v1
       with:
         # Specifies Ruby 4.0; can also accept explicit semantic versions like '4.0.0'
-        ruby-version: '4' 
+        ruby-version: '4.0.7' 
         # Enables automatic 'bundle install' with smart hashing-based caching
         bundler-cache: true 
 
